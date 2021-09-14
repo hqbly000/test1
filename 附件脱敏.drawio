@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T06:10:32.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="_T2VAHu4D-geHPIjALm4" version="15.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-14T06:13:21.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="8nfWl1RFNpqIMbTi2auD" version="15.1.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1550" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -293,11 +293,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dcwhJfwe2njdfTnMzl6p-1" value="fileStore" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
-          <mxGeometry x="-780" y="37" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="dcwhJfwe2njdfTnMzl6p-2" value="" style="swimlane;startSize=0;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
-          <mxGeometry x="-680" y="29" width="300" height="217" as="geometry" />
+        <mxCell id="dcwhJfwe2njdfTnMzl6p-1" value="fileStore&lt;br&gt;缓存当前表单的附件信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
+          <mxGeometry x="-580" y="-60" width="144.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dcwhJfwe2njdfTnMzl6p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fNiUItWntyPrWqqLxuwU-1" source="dcwhJfwe2njdfTnMzl6p-6" target="dcwhJfwe2njdfTnMzl6p-7">
           <mxGeometry relative="1" as="geometry" />
@@ -421,6 +418,9 @@
         </mxCell>
         <mxCell id="dcwhJfwe2njdfTnMzl6p-53" value="用已有的图和修改后的图去统一解析，需要标记出&lt;br&gt;哪个图是需要重新处理的" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=south;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
           <mxGeometry x="-501" y="1200" width="271" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="dcwhJfwe2njdfTnMzl6p-55" value="sdcMappingStore&lt;br&gt;缓存渲染到页面上的ocrDatas&lt;br&gt;和FileStore中有些参数重复，后期需要优化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
+          <mxGeometry x="-370" y="-80" width="150" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
