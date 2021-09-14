@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T06:15:45.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="0YOiB8_l9zKmO4dga_m0" version="15.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-14T06:17:15.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="08FDamchUHmJW88vU1oR" version="15.1.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1550" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -416,8 +416,8 @@
         <mxCell id="dcwhJfwe2njdfTnMzl6p-52" value="回显时是原图" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=south;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
           <mxGeometry x="-511" y="940" width="91" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="dcwhJfwe2njdfTnMzl6p-53" value="用已有的图和修改后的图去统一解析，需要标记出&lt;br&gt;哪个图是需要重新处理的" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=south;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
-          <mxGeometry x="-501" y="1200" width="271" height="42" as="geometry" />
+        <mxCell id="dcwhJfwe2njdfTnMzl6p-53" value="用已有的图和修改后的图去统一解析，需要标记出&lt;br&gt;哪个图是需要重新处理的，&lt;br&gt;修改过后是必须重新处理新的图片 OCR/脱敏都要" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;direction=south;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
+          <mxGeometry x="-520" y="1192" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dcwhJfwe2njdfTnMzl6p-55" value="sdcMappingStore&lt;br&gt;缓存渲染到页面上的ocrDatas&lt;br&gt;和FileStore中有些参数重复，后期需要优化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="fNiUItWntyPrWqqLxuwU-1">
           <mxGeometry x="-370" y="-80" width="150" height="130" as="geometry" />
