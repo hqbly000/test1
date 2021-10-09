@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T02:21:31.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="kY3CZieR7YuyInJ58w6a" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T02:27:05.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="H9N7HiVS_rja4BIuBCXm" version="15.3.5" type="github">
   <diagram id="WRPDDCgANveFfhrbrllu" name="Page-1">
     <mxGraphModel dx="1550" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,6 +8,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-1" target="irgdS5TOoOP_sUBfPEMx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-48" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-1" target="irgdS5TOoOP_sUBfPEMx-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-1" value="EDC" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
@@ -88,26 +91,56 @@
         <mxCell id="irgdS5TOoOP_sUBfPEMx-26" value="新控件编写流程" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="-170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="irgdS5TOoOP_sUBfPEMx-39" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-28" target="irgdS5TOoOP_sUBfPEMx-38">
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-42" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-28" target="irgdS5TOoOP_sUBfPEMx-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-28" value="数据获取过程" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="707" y="140" width="120" height="35" as="geometry" />
+          <mxGeometry x="540" y="45" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-31" target="irgdS5TOoOP_sUBfPEMx-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-31" value="数据提交准备" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="540" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-33" value="目前存在问题（数据状态）" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-36" value="Toolbar 工具按钮" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="570" y="-110" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="irgdS5TOoOP_sUBfPEMx-38" value="表单结构" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="910" y="90" width="120" height="35" as="geometry" />
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-44" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-41" target="irgdS5TOoOP_sUBfPEMx-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-41" value="表单结构" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-35" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-46" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-43" target="irgdS5TOoOP_sUBfPEMx-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-43" value="数据准备" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="750" y="30" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-45" value="系统变量" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="750" y="100" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-50" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-47" target="irgdS5TOoOP_sUBfPEMx-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-51" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-47" target="irgdS5TOoOP_sUBfPEMx-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-53" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-47" target="irgdS5TOoOP_sUBfPEMx-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-47" value="缓存数据" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-49" value="基础信息（项目）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-52" value="系统变量" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
