@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T01:43:19.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="GBHKhpiHX9XTlnr4l9n1" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T02:21:31.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="kY3CZieR7YuyInJ58w6a" version="15.3.5" type="github">
   <diagram id="WRPDDCgANveFfhrbrllu" name="Page-1">
-    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,23 @@
         <mxCell id="irgdS5TOoOP_sUBfPEMx-1" value="EDC" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="70" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-2" target="irgdS5TOoOP_sUBfPEMx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-35" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-2" target="irgdS5TOoOP_sUBfPEMx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-37" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-2" target="irgdS5TOoOP_sUBfPEMx-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-2" value="表单设计器" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="30" width="120" height="30" as="geometry" />
+          <mxGeometry x="310" y="-140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-4" target="irgdS5TOoOP_sUBfPEMx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-32" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-4" target="irgdS5TOoOP_sUBfPEMx-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-4" value="数据录入" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="80" width="120" height="30" as="geometry" />
@@ -22,26 +37,77 @@
         <mxCell id="irgdS5TOoOP_sUBfPEMx-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-7" target="irgdS5TOoOP_sUBfPEMx-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-7" target="irgdS5TOoOP_sUBfPEMx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-7" value="服务器" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="490" width="120" height="30" as="geometry" />
+          <mxGeometry x="105" y="680" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-8" target="irgdS5TOoOP_sUBfPEMx-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-8" target="irgdS5TOoOP_sUBfPEMx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-8" target="irgdS5TOoOP_sUBfPEMx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-8" value="凌先" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="340" y="400" width="120" height="30" as="geometry" />
+          <mxGeometry x="325" y="590" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-10" value="官网" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;" vertex="1" parent="1">
-          <mxGeometry x="540" y="320" width="120" height="30" as="geometry" />
+          <mxGeometry x="525" y="510" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-12" target="irgdS5TOoOP_sUBfPEMx-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-12" target="irgdS5TOoOP_sUBfPEMx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-12" value="CTM" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="210" width="120" height="30" as="geometry" />
+          <mxGeometry x="105" y="400" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="irgdS5TOoOP_sUBfPEMx-13" value="swagger接口整理" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="170" width="120" height="30" as="geometry" />
+          <mxGeometry x="325" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-15" value="风险写法工具类" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-19" value="GoodTrials" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="525" y="585" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-22" target="irgdS5TOoOP_sUBfPEMx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-22" value="NodeJs 服务器" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="365" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-24" value="解析生成详细" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="575" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-26" value="新控件编写流程" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-39" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-28" target="irgdS5TOoOP_sUBfPEMx-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-28" value="数据获取过程" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="707" y="140" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="irgdS5TOoOP_sUBfPEMx-31" target="irgdS5TOoOP_sUBfPEMx-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-31" value="数据提交准备" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-33" value="目前存在问题（数据状态）" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-36" value="Toolbar 工具按钮" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-110" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="irgdS5TOoOP_sUBfPEMx-38" value="表单结构" style="whiteSpace=wrap;html=1;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="910" y="90" width="120" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
