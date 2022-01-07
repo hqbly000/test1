@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T09:17:37.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="DAFyCg1SYxtTZG7_fCZy" version="15.5.0" type="github" pages="3">
-  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+<mxfile host="app.diagrams.net" modified="2022-01-07T09:36:17.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="3Q_licRpK4ohskfs7Jdd" version="15.5.0" type="github" pages="3">
+  <diagram name="EDC访视表单" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1824" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -103,7 +103,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="UFdhUbHyx25RL9BKCO7E" name="Page-2">
+  <diagram id="UFdhUbHyx25RL9BKCO7E" name="SDC访视表单">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fR2d5GVHecbzUgTrAPdk-0" />
@@ -117,20 +117,14 @@
         <mxCell id="o-ji7XmNnPFdqn16t20I-2" value="SDC录入（CRC/PI）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-1">
           <mxGeometry x="20" y="65" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-3" value="SDC核查&lt;br&gt;（CRA/DPL）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-1">
-          <mxGeometry x="20" y="160" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-4" value="SDC核查&lt;br&gt;（PL Review）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-1">
-          <mxGeometry x="20" y="440" width="100" height="60" as="geometry" />
+        <mxCell id="NgR7jWBKS6j2ccfTzbd--4" value="SDC核查（Manager）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-1">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o-ji7XmNnPFdqn16t20I-5" value="操作判断" style="swimlane;html=1;startSize=20;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-0">
           <mxGeometry x="160" y="20" width="340" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-6" value="&lt;br&gt;根据权限的强关联判断&lt;br&gt;当前项目是否配置需要核查的表单&lt;br&gt;以 Review配置中是否勾选为准" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;rotation=0;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-5">
+        <mxCell id="o-ji7XmNnPFdqn16t20I-6" value="&lt;br&gt;根据权限的强关联判断&lt;br&gt;当前项目是否配置了需要核查的表单&lt;br&gt;以 Review配置中是否勾选为准" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;rotation=0;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-5">
           <mxGeometry x="83.1" y="234.07" width="205" height="185" as="geometry" />
-        </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-7" value="无当前操作" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-5">
-          <mxGeometry x="135" y="430" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o-ji7XmNnPFdqn16t20I-8" value="页面展示阶段" style="swimlane;html=1;startSize=20;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-0">
           <mxGeometry x="500" y="20" width="280" height="730" as="geometry" />
@@ -138,18 +132,10 @@
         <mxCell id="o-ji7XmNnPFdqn16t20I-9" value="展示所有的访视关联表单" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-8">
           <mxGeometry x="90" y="53.75" width="130" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-10" value="展示所有的访视关联表单" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-8">
-          <mxGeometry x="90" y="148.75" width="130" height="82.5" as="geometry" />
+        <mxCell id="o-ji7XmNnPFdqn16t20I-12" value="SDC核查&lt;br&gt;（CRA/DPL/COPL/&lt;br&gt;Medical/PV）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-8">
+          <mxGeometry x="-480" y="315" width="120" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="o-ji7XmNnPFdqn16t20I-8" target="o-ji7XmNnPFdqn16t20I-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-380" y="190" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-12" value="SDC核查&lt;br&gt;（Medical/PV）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-8">
-          <mxGeometry x="-480" y="315" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-13" value="展示相关的访视关联表单" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-8">
+        <mxCell id="o-ji7XmNnPFdqn16t20I-13" value="展示相关的Review类型访视关联表单" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-8">
           <mxGeometry x="90" y="303.75" width="130" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="o-ji7XmNnPFdqn16t20I-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="o-ji7XmNnPFdqn16t20I-0" source="o-ji7XmNnPFdqn16t20I-9" target="o-ji7XmNnPFdqn16t20I-17">
@@ -161,17 +147,11 @@
         <mxCell id="o-ji7XmNnPFdqn16t20I-16" value="状态展示" style="swimlane;html=1;startSize=20;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-0">
           <mxGeometry x="780" y="20" width="210" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-17" value="展示默认的录入/SDV/REVIEW状态图标" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
+        <mxCell id="o-ji7XmNnPFdqn16t20I-17" value="展示默认的录入/&lt;font color=&quot;#ff0000&quot;&gt;配置的Reivew操作类型的按序前两种&lt;/font&gt;状态图标" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
           <mxGeometry x="50" y="50" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-18" value="展示默认的录入/SDV/REVIEW状态图标" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
-          <mxGeometry x="50" y="145" width="130" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-19" value="展示默认的录入/SDV/&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;当前操作类型的Review&lt;/font&gt;&lt;/b&gt;状态图标" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
+        <mxCell id="o-ji7XmNnPFdqn16t20I-19" value="展示默认的录入&lt;strike&gt;/SDV/&lt;/strike&gt;&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;当前操作类型的Review&lt;/font&gt;&lt;/b&gt;状态图标" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
           <mxGeometry x="48" y="299.25" width="130" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="o-ji7XmNnPFdqn16t20I-0" source="o-ji7XmNnPFdqn16t20I-10" target="o-ji7XmNnPFdqn16t20I-18">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o-ji7XmNnPFdqn16t20I-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="o-ji7XmNnPFdqn16t20I-0" source="o-ji7XmNnPFdqn16t20I-13" target="o-ji7XmNnPFdqn16t20I-19">
           <mxGeometry relative="1" as="geometry" />
@@ -201,13 +181,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-27" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CC0000;" edge="1" parent="o-ji7XmNnPFdqn16t20I-0" source="o-ji7XmNnPFdqn16t20I-4" target="o-ji7XmNnPFdqn16t20I-7">
+        <mxCell id="NgR7jWBKS6j2ccfTzbd--5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="o-ji7XmNnPFdqn16t20I-0" source="NgR7jWBKS6j2ccfTzbd--4" target="o-ji7XmNnPFdqn16t20I-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NgR7jWBKS6j2ccfTzbd--3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;COPL Review&lt;/li&gt;&lt;li&gt;CRA SDV&lt;/li&gt;&lt;li&gt;DPL Review&lt;/li&gt;&lt;li&gt;Medical Review&lt;/li&gt;&lt;li&gt;Safety Review&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontColor=#FF0000;" vertex="1" parent="fR2d5GVHecbzUgTrAPdk-1">
+          <mxGeometry x="1050" y="60" width="230" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="MtPVSpPQfSr01AcympA9" name="Page-3">
+  <diagram id="MtPVSpPQfSr01AcympA9" name="中心表单">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zMAgDorUBFcY2bbX2rzL-0" />
