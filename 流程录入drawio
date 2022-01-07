@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T09:38:48.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dRp3RIy-9rohkYe6-45A" version="15.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-07T09:48:02.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="xQhghWf_Gty1q943bw1l" version="15.5.0" type="github" pages="3">
   <diagram name="EDC访视表单" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1824" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -147,14 +147,14 @@
         <mxCell id="o-ji7XmNnPFdqn16t20I-16" value="状态展示" style="swimlane;html=1;startSize=20;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-0">
           <mxGeometry x="780" y="20" width="210" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="o-ji7XmNnPFdqn16t20I-17" value="展示默认的录入/&lt;font color=&quot;#ff0000&quot;&gt;配置的Reivew操作类型的按序前两种&lt;/font&gt;状态图标" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
-          <mxGeometry x="50" y="50" width="130" height="90" as="geometry" />
+        <mxCell id="o-ji7XmNnPFdqn16t20I-17" value="展示默认的录入/&lt;font color=&quot;#ff0000&quot;&gt;配置的Reivew操作类型的按序前两种&lt;/font&gt;状态图标&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;图标展示疑问，表单配置的不同Review类型不同，需要动态判断&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
+          <mxGeometry x="50" y="50" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="o-ji7XmNnPFdqn16t20I-19" value="展示默认的录入&lt;strike&gt;/SDV/&lt;/strike&gt;&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;当前操作类型的Review&lt;/font&gt;&lt;/b&gt;状态图标" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontFamily=Verdana;fontSize=8;strokeWidth=1;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
           <mxGeometry x="48" y="299.25" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NgR7jWBKS6j2ccfTzbd--7" value="根据Reviewed配置渲染Review操作按钮（不允许无效的Review操作）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
-          <mxGeometry x="48" y="150" width="132" height="60" as="geometry" />
+        <mxCell id="NgR7jWBKS6j2ccfTzbd--7" value="根据Review配置渲染Review操作，Review撤销按钮（不允许无效的Review操作）" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="o-ji7XmNnPFdqn16t20I-16">
+          <mxGeometry x="50" y="170" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o-ji7XmNnPFdqn16t20I-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="o-ji7XmNnPFdqn16t20I-0" source="o-ji7XmNnPFdqn16t20I-13" target="o-ji7XmNnPFdqn16t20I-19">
           <mxGeometry relative="1" as="geometry" />
