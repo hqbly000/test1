@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T03:46:15.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bwfwaHYA7AqHjB_NEZIA" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T03:48:18.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_DMi9NF3Tg_X1weD_2q6" version="16.5.6" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="complex gitflow">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -112,16 +112,6 @@
             <mxPoint x="341.5" y="180" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;a href=&quot;https://nvie.com/posts/a-successful-git-branching-model/&quot;&gt;https://nvie.com/posts/a-successful-git-branching-model/&lt;/a&gt;" link="https://nvie.com/posts/a-successful-git-branching-model/" id="9hBKPDzoitwpIBdzFDQ7-3">
-          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="115" y="115" width="355" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="See:" link="https://nvie.com/posts/a-successful-git-branching-model/" id="9hBKPDzoitwpIBdzFDQ7-7">
-          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="82.25" y="115" width="32.75" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="9hBKPDzoitwpIBdzFDQ7-15" value="&lt;span style=&quot;text-align: center&quot;&gt;由Dev分支合并至Master&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1130" y="220" width="167.75" height="40" as="geometry" />
         </mxCell>
@@ -248,13 +238,13 @@
         <mxCell id="Vz9PpJUxYuVP-sBHaJVy-35" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vz9PpJUxYuVP-sBHaJVy-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="632.25" y="465" as="sourcePoint" />
-            <mxPoint x="1170" y="455" as="targetPoint" />
+            <mxPoint x="1210" y="455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vz9PpJUxYuVP-sBHaJVy-36" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-95">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="822.25" y="465" as="sourcePoint" />
-            <mxPoint x="1170" y="376" as="targetPoint" />
+            <mxPoint x="1210" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vz9PpJUxYuVP-sBHaJVy-38" value="&lt;span style=&quot;text-align: center&quot;&gt;SDC/EDC 开发分支合并至Dev&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
@@ -269,7 +259,7 @@
         <mxCell id="Vz9PpJUxYuVP-sBHaJVy-41" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-106">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="296" as="sourcePoint" />
-            <mxPoint x="1172" y="296" as="targetPoint" />
+            <mxPoint x="1210" y="296" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -376,6 +366,12 @@
         </mxCell>
         <mxCell id="Vz9PpJUxYuVP-sBHaJVy-78" value="&lt;span style=&quot;text-align: center&quot;&gt;开发中途接受来自Dev 主开发分支的修改，最好先本地提交一次&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="910" y="490" width="170" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Vz9PpJUxYuVP-sBHaJVy-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=none;endFill=0;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uWUnNED6HEl2aK5fdaIb-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="211" as="targetPoint" />
+            <mxPoint x="822.25" y="221" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
